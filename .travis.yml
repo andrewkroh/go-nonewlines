@@ -1,0 +1,14 @@
+sudo: false
+language: go
+go:
+- 1.9.1
+
+go_import_path: github.com/andrewkroh/go-nonewlines
+
+install:
+- go get golang.org/x/tools/cmd/goimports
+
+script:
+- goimports -local github.com/andrewkroh -l . | (! grep .) || (echo "Code differs from goim    ports' style ^" && false)
+- go test $(go list ./... | grep -v /vendor/)
+- go build ./cmd/nonewlines
