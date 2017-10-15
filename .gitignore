@@ -2,3 +2,5 @@
 *.idea
 *.swp
 *.so
+
+cmd/nonewlines/nonewlines
