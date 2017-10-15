@@ -40,7 +40,7 @@ nonewlines -l -w .
 ## Example
 
 ```sh
-$ nonewlines -d -l $(find . -name '*.go' | grep -v vendor) | head -20
+$ nonewlines -d -l $(find . -name '*.go' | grep -v vendor)
 ./testify/assert/assertions.go
 diff -u ./testify/assert/assertions.go.orig ./testify/assert/assertions.go
 --- ./testify/assert/assertions.go.orig 2017-10-16 00:19:59.000000000 +0200
