@@ -21,7 +21,7 @@ Package documentation can be found on [GoDoc][godocs].
 Installation can be done with a normal `go get`.
 
 ```
-$ go install github.com/andrewkroh/go-nonewlines/cmd/nonewlines
+$ go get github.com/andrewkroh/go-nonewlines/cmd/nonewlines
 ```
 
 The arguments are similar to that of goimports. To view a diff
