@@ -1,3 +1,6 @@
+**NOTE**: This is no longer maintained and [gofumpt](https://github.com/mvdan/gofumpt#added-rules)
+can be used to enforce this rule.
+
 # go-nonewlines
 
 [![Build Status](http://img.shields.io/travis/andrewkroh/go-nonewlines.svg?style=flat-square)][travis]
